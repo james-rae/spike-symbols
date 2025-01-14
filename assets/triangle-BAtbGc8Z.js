@@ -1,0 +1,2 @@
+import{s as i}from"./sphere-Ds6-k66c.js";import{dk as s,c_ as o,dl as c,dA as d,dg as v}from"./spike-symbols.js";import{v as w}from"./lineSegment-BdV1phai.js";import"./plane-DEB6D17h.js";function M(r){return r?{p0:s(r.p0),p1:s(r.p1),p2:s(r.p2)}:{p0:o(),p1:o(),p2:o()}}function j(r,p,n){const m=p[0]-r[0],f=p[1]-r[1],u=n[0]-r[0],e=n[1]-r[1];return .5*Math.abs(m*e-f*u)}function k(r,p,n){return c(a,p,r),c(t,n,r),.5*d(v(a,a,t))}new i(w);new i(()=>M());const a=o(),t=o();export{k as S,j as v};
+//# sourceMappingURL=triangle-BAtbGc8Z.js.map

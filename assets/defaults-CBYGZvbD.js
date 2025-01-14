@@ -1,0 +1,2 @@
+import{av as o,aw as t,ax as n,ay as a}from"./spike-symbols.js";import{l as e,o as s,S as m,t as l,r as u,s as c,y as f}from"./defaultsJSON-GKolV7NZ.js";const S=o.fromJSON(e),i=t.fromJSON(s),O=n.fromJSON(m),J=a.fromJSON(l);function N(r){if(r==null)return null;switch(r.type){case"mesh":return null;case"point":case"multipoint":return S;case"polyline":return i;case"polygon":case"extent":return O}return null}const $=o.fromJSON(u),x=t.fromJSON(c),h=n.fromJSON(f);export{N as J,$ as N,x as O,S,J as a,O as c,i as u,h as y};
+//# sourceMappingURL=defaults-CBYGZvbD.js.map

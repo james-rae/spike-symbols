@@ -1,0 +1,2 @@
+import{o as t,v as a,M as i,N as h,R as n}from"./spike-symbols.js";import{i as l}from"./AGraphicContainer-DhZ_oX5G.js";let s=class extends l{get hasHighlight(){return this.children.some(e=>e.hasData)}renderChildren(e){this.attributeView.update(),e.drawPhase===i.HIGHLIGHT&&this.children.some(r=>r.hasData)&&(super.renderChildren(e),e.context.setColorMask(!0,!0,!0,!0),h(e,!0,r=>{this._renderChildren(r,n.All)},0))}};s=t([a("esri.views.2d.layers.graphics.HighlightGraphicContainer")],s);const c=s;export{c as h};
+//# sourceMappingURL=HighlightGraphicContainer-CpZXSlCV.js.map

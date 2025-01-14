@@ -1,0 +1,2 @@
+import{o as t,u as o,v as a}from"./spike-symbols.js";import{w as i}from"./FeatureEffect-CGoK9m7D.js";const r={write:{allowNull:!0}},f={type:i,json:{origins:{"web-map":r,"portal-item":r}}},u=s=>{let e=class extends s{constructor(){super(...arguments),this.featureEffect=null}};return t([o(f)],e.prototype,"featureEffect",void 0),e=t([a("esri.layers.mixins.FeatureEffectLayer")],e),e};export{u as c,f as p};
+//# sourceMappingURL=FeatureEffectLayer-D5B0ef_V.js.map
