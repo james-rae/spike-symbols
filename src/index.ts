@@ -10,6 +10,25 @@ import EsriSimpleMarkerSymbol from '@arcgis/core/symbols/SimpleMarkerSymbol';
 
 // everything after is what executes at startup
 
+// TODO add colour param
+const spikeSymbol = (svgSize: number, symbSize: number): EsriSimpleMarkerSymbol => {
+    const jsonConfig = {
+        type: 'esriSMS',
+        style: 'esriSMSPath',
+        path: `M 0 0 L 2 ${svgSize} L 4 0 Z`,
+        color: [85, 255, 0, 64],
+        size: symbSize,
+        angle: 180,
+        xoffset: 0,
+        yoffset: symbSize / 2,
+        outline: {
+            color: [0, 92, 230, 255],
+            width: 1
+        }
+    };
+    return EsriSimpleMarkerSymbol.fromJSON(jsonConfig);
+};
+
 const map = new EsriMap({
     basemap: 'terrain'
 });
@@ -24,9 +43,7 @@ const point = new EsriPoint({
     latitude: 47.5
 });
 
-const markerSymbol = new EsriSimpleMarkerSymbol({
-    color: [226, 119, 40]
-});
+const markerSymbol = spikeSymbol(18, 24);
 
 // Create a graphic and add the geometry and symbol to it
 const spike1 = new EsriGraphic({
