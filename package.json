@@ -1,5 +1,5 @@
 {
-    "name": "tomplate",
+    "name": "spike-symbols",
     "private": false,
     "version": "0.0.1",
     "types": "./dist/index.d.ts",
@@ -18,5 +18,8 @@
         "ts-node": "^10.9.2",
         "typescript": "^5.5.0",
         "vite": "^6.0.1"
+    },
+    "dependencies": {
+        "@arcgis/core": "4.31.6"
     }
 }
